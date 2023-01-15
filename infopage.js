@@ -1,5 +1,5 @@
 function home(){
-    window.location.href = "http://www.w3schools.com";
+    //window.location.href = "http://www.w3schools.com";
     //alert("Success");
     //document.getElementsByClassName("turnPage").value = "abc";
 }
