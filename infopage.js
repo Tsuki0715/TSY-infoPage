@@ -24,32 +24,17 @@ function home(){
 function changeYear(year) {
     localStorage.setItem("ThisYear", year);
     location.replace("index.html");
-    //document.getElementById('L-content-title').textContent = year[x];
-    //alert(x);
-
 }
 
-function changeTT(x, y, str) {
-    //alert(str);
+function changeTT(x, y) {
     if (x < 0 || y < 0) return;
     document.getElementById("timetable-img").src = timetable_img[x][y];
-    if (str == "one") 
-    {
-        document.getElementById("one").style.color='#816BFF';
-        document.getElementById("two").style.color='#000000';
-    }
-    if (str == "two") 
-    {
-        document.getElementById("one").style.color='#000000';
-        document.getElementById("two").style.color='#816BFF';
-    }
 }
 
 if (yearNum > 0) {
     document.getElementById('L-content-title').textContent = year[yearNum];
-    document.getElementById('tt-list').innerHTML+="<button class='sem-btn' onclick='changeTT("+yearNum+" ,0 , `one`)' id='one'>"+sem_tt[yearNum][0]+"</button>";
-    document.getElementById('tt-list').innerHTML+="<button class='sem-btn' onclick='changeTT("+yearNum+" ,1 , `two`)' id='two'>"+sem_tt[yearNum][1]+"</button>";
-    //console.log(sem_tt[yearNum][0]);
+    document.getElementById('tt-list').innerHTML+="<button class='sem-btn' onclick='changeTT("+yearNum+" ,0)'>"+sem_tt[yearNum][0]+"</button>";
+    document.getElementById('tt-list').innerHTML+="<button class='sem-btn' onclick='changeTT("+yearNum+" ,1)'>"+sem_tt[yearNum][1]+"</button>";
 } 
 
 
