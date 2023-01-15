@@ -10,30 +10,37 @@
         <div class="header">
             <div class="left-section">
                 <button class="header-button" onclick="home()">Home</button>
-                <button class="header-button">Year 1</button>
-                <button class="header-button">Year 2</button>
-                <button class="header-button">Year 3</button>
+                <button class="header-button" onclick="changeYear(1)">Year 1</button>
+                <button class="header-button" onclick="changeYear(2)">Year 2</button>
+                <button class="header-button" onclick="changeYear(3)">Year 3</button>
             </div>
             <div class="right-section">
                 <button class="header-button">Log In</button>
             </div>
         </div>
         <div class="mainContent">
-            <div class="btnList">
-                <button class="btnLeft" onclick="timetable()">Timetable</button>
-                <button class="btnLeft">GPA</button>
+            <div class="left-content">
+                <div class="left-content-title" id="L-content-title"></div>
+                <div class="line"></div>
+                <div class="timetable-list">
+                    <div class="left-content-btn">Timetable</div>
+                    <ul class="sem-timetable-list" id="tt-list">
+                        <!--<li>Year 1 Sem 1</li>-->
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="left-content-btn">GPA</div>
             </div>
             <div class="sepLine"></div>
             <div class="cover"></div>
             <div class="content">
                 <h1 class="content-title">TimeTable</h1>
                 <div class="content-picture">
-                    <img class="content-timetbale" src="./image/TimeTable/Template_TT.png">
+                    <img class="content-timetbale" id="timetable-img" src="./image/TimeTable/Template_TT.png">
                     <!--<img class="content-timetbale" src="../image/TimeTable/Template_TT.png">
-                    <img class="content-timetbale" src="../image/TimeTable/Template_TT.png">
                     <img class="content-timetbale" src="../image/TimeTable/Template_TT.png">-->
                 </div>
-                <p class="content-text">abc</p>
+                <p class="content-text"></p>
             </div>
         </div>
     </body>
