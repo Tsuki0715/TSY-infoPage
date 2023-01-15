@@ -36,12 +36,12 @@
     height: 2px;
 }
 
-.left-content-btn {
+.left-content-type {
     color: rgb(130, 130, 100);
     display: block;
     background: none;
     border: none;
-    padding: 15px 0 15px 15px;
+    padding: 15px 0 15px 5px;
     font-size: x-large;
     overflow: hidden;
     width: 100%;
