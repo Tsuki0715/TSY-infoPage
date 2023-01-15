@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background: url("./image/home_background.jpg") no-repeat fixed center;    
+    background: url("../image/home_background.jpg") no-repeat fixed center;    
     background-size: cover;
 }
 
