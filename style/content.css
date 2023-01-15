@@ -1,21 +1,27 @@
 .mainContent {
     position: relative;
-    top: 80px;
-    width: 96%;
-    height: 80%;
     display: flex;
-    margin: auto;
-    padding-bottom: 100px;
+    flex-direction: row;
+    top: 100px;
+    width: 96%;
+    height: 86%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     box-shadow: 0 0 10px black;
-    overflow: hidden;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 .btnList {
     background-color: beige;
+    position: fixed;
+    text-align: center;
     align-content: flex-start;
     width: 120px;
+    height: 70%;
     margin: 30px 0px 30px 10px;
 }
 
@@ -24,11 +30,11 @@
     display: block;
     background: none;
     border: none;
-    padding: 15px 0;
+    padding: 15px 0 15px 15px;
     cursor: pointer;
+    font-size: x-large;
     overflow: hidden;
     width: 100%;
-    font-size: x-large;
     text-align: start;
     transition: opacity color 0.15s;
 }
@@ -42,14 +48,49 @@
 }
 
 .sepLine {
+    position: fixed;
+    left: 150px;
     width: 2px;
-    margin: 10px 5px;
+    height: 84%;
+    margin: 10px 10px;
     background-color: rgb(119, 123, 104);
 }
 
-.information {
+ .cover{
+    width: 160px;
+ }
+
+.content {
     background-color: aquamarine;
-    margin: 30px 20px 30px 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    flex: 1;
+    height: 90%;
+}
+
+.content-title {
+    font-size: x-large;
     text-align: center;
-    width: 85%;
+}
+
+.content-text {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.content-picture {
+    /*display: grid;
+    grid-row: 1fr 1fr;
+    grid-row-gap: 10px;*/
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-timetable {
+    height: 100%;
 }
