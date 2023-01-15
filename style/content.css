@@ -16,7 +16,6 @@
 }
 
 .btnList {
-    background-color: beige;
     position: fixed;
     text-align: center;
     align-content: flex-start;
@@ -61,7 +60,6 @@
  }
 
 .content {
-    background-color: aquamarine;
     margin-top: 30px;
     margin-right: 20px;
     flex: 1;
