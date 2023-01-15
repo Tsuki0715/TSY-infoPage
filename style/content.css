@@ -28,7 +28,7 @@
     cursor: pointer;
     overflow: hidden;
     width: 100%;
-    font-size: x-larger;
+    font-size: x-large;
     text-align: start;
     transition: opacity color 0.15s;
 }
