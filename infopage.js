@@ -4,6 +4,6 @@ function home(){
     //document.getElementsByClassName("turnPage").value = "abc";
 }
 
-function timetable() {
+/*function timetable() {
     document.getElementById("picTime").src = "";
-}
+}*/
