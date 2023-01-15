@@ -15,8 +15,8 @@
 .btnList {
     background-color: beige;
     align-content: flex-start;
-    width: 15%;
-    margin: 30px 0px 30px 40px;
+    width: 120px;
+    margin: 30px 0px 30px 10px;
 }
 
 .btnLeft {
