@@ -2,11 +2,13 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    top: 100px;
-    width: 96%;
-    height: 86%;
+    /*top: 100px;*/
+    width: auto;
+    height: auto;
+    margin: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
@@ -76,10 +78,10 @@
 }
 
 .sepLine {
-    position: fixed;
-    left: 150px;
+    position: absolute;
+    left: 132px;
     width: 2px;
-    height: 84%;
+    height: 98%;
     margin: 10px 10px;
     background-color: rgb(119, 123, 104);
 }
