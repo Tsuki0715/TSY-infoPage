@@ -1,15 +1,17 @@
 html, body{
     height: 100%;
     overflow: auto;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 body {
     margin: auto;
-    background: url("../image/home_background.jpg") no-repeat fixed center;    
+    background: url("../image/home_background_1.jpg") no-repeat fixed center;    
     background-size: cover;
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
+    letter-spacing: 0.8px;
 }
 
 img {

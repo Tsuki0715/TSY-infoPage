@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(98, 60, 50);
+    background-color: rgb(146, 173, 251);
     position: fixed;
     top: 0;
     width: 100%;
@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     flex: 80px;
+    border-bottom: 1px solid rgb(208, 226, 255);
 }
 
 .left-section {
@@ -21,17 +22,19 @@
 .header-button {
     background: none;
     margin: 0;
-    color:aliceblue;
+    color:rgb(0, 2, 105);
     border: none;
     cursor: pointer;
     height: 100%;
     padding: 0 20px;
     border-radius: 3px;
     transition: opacity color 0.15s;
+    font-size: large;
+    letter-spacing: 0.8px;
 }
 
 .header-button:hover {
-    background-color: rgb(99, 139, 120);
+    background-color: rgba(97, 109, 219, 0.5);
 }
 
 .header-button:active {

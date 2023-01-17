@@ -5,7 +5,7 @@
     /*top: 100px;*/
     width: auto;
     height: auto;
-    min-height: 80%;
+    min-height: 100%;
     margin: 100px;
     margin-left: 20px;
     margin-right: 20px;
@@ -28,19 +28,21 @@
 }
 
 .left-content-title {
+    position: sticky;
     font-size: xx-large;
-    color: red;
+    color: rgb(24, 72, 173);
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .line {
-    background-color: lightgray;
+    background-color: rgb(109, 105, 105);
     width: 100%;
     height: 2px;
 }
 
 .left-content-type {
-    color: rgb(130, 130, 100);
+    color: rgb(107, 28, 172);
     display: block;
     background: none;
     border: none;
@@ -49,10 +51,12 @@
     overflow: hidden;
     width: 100%;
     text-align: start;
+    letter-spacing: 1.4px;
 }
 
 .sem-timetable-list {
     padding-left: 0px;
+    margin-top: 0px;
 }
 
 .sem-btn {
@@ -64,10 +68,11 @@
     padding: 10px 3px;
     cursor: pointer;
     transition: opacity color 0.15s;
+    letter-spacing: 1px;
 }
 
 .sem-btn:hover {
-    color: aqua;
+    color: rgb(233, 4, 221);
 }
 
 .sem-btn:active {
@@ -75,7 +80,7 @@
 }
 
 .sem-btn:focus {
-    color: rgb(209, 93, 255);
+    color: rgb(66, 128, 243);
 }
 
 .sepLine {
@@ -84,7 +89,20 @@
     width: 2px;
     height: 98%;
     margin: 10px 10px;
-    background-color: rgb(119, 123, 104);
+    background-color: rgb(109, 105, 105);
+}
+
+@media (max-width: 320px){
+    .left-content,
+    .sepLine,
+    .cover {
+        display: none;
+    }
+
+    .content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
  .cover{
@@ -94,13 +112,18 @@
 .content {
     margin-top: 30px;
     margin-right: 10px;
+    margin-left: 10px;
     flex: 1;
     height: 90%;
 }
 
 .content-title {
-    font-size: x-large;
+    font-family: Times;
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 40px;
+    color: rgba(84, 13, 143, 0.795);
 }
 
 .content-text {
