@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/general.css">
         <link rel="stylesheet" href="style/content.css">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/lightbox.css">
     </head>
     <body>
         <div class="header">
@@ -13,6 +15,7 @@
                 <button class="header-button" onclick="changeYear(1)">Year 1</button>
                 <button class="header-button" onclick="changeYear(2)">Year 2</button>
                 <button class="header-button" onclick="changeYear(3)">Year 3</button>
+                <button class="header-button" onclick="changeYear(4)">Year 4</button>
             </div>
             <div class="right-section">
                 <button class="header-button">Log In</button>
@@ -35,14 +38,32 @@
             <div class="content">
                 <h1 class="content-title">TimeTable</h1>
                 <div class="content-picture">
-                    <img class="content-timetbale" id="timetable-img" src="./image/TimeTable/Template_TT.png">
-                    <!--<img class="content-timetbale" src="../image/TimeTable/Template_TT.png">
-                    <img class="content-timetbale" src="../image/TimeTable/Template_TT.png">-->
+                    <img class="content-timetbale" id="timetable-img" onclick="open1()" src="./image/TimeTable/Template_TT.png">
+                    <!--<img class="content-timetbale" src="./image/TimeTable/Template_TT.png">
+                    <img class="content-timetbale" src="./image/TimeTable/Template_TT.png">-->
                 </div>
                 <p class="content-text"></p>
             </div>
         </div>
-        <!--<footer></footer>-->
+        <div class="lightbox-container" id="lb-con">
+            <div class="lightbox-background">
+                <button class="lightbox-button" onclick="close1()"></button>
+                <img class="lightbox-image" id="lightbox-img" onclick="close1()" src="./image/TimeTable/Template_TT.png">
+            </div>
+        </div>
+        <footer>
+            <div class="left-footer">
+                <h4 class="left-footer-title">Contact me</h4>
+                <p class="left-footer-content">1155159327@link.cuhk.edu.hk</p>
+                <p class="left-footer-content">terrytang2002715@gmail.com</p>
+            </div>
+            <div class="footer-line"></div>
+            <div class="right-footer">
+                <h4 class="right-footer-title">More About Me</h4>
+                <p class="right-footer-content">CUHK Year 3</p>
+                <p class="right-footer-content">IERG</p>
+            </div>
+        </footer>
     </body>
     <script src="infopage.js"></script>
 </html>
