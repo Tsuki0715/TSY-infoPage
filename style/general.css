@@ -8,6 +8,8 @@ body {
     margin: auto;
     background: url("../image/home_background.jpg") no-repeat fixed center;    
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
