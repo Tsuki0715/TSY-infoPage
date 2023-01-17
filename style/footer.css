@@ -4,7 +4,7 @@ footer {
     background-color: rgba(151, 189, 238, 0.8);
     bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
