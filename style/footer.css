@@ -55,7 +55,7 @@ footer {
 
 @media (max-width: 500px) {
     footer {
-        height: 250px;
+        height: 270px;
     }
     
     .footer-content {
