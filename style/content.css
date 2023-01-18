@@ -5,7 +5,7 @@
     /*top: 100px;*/
     width: auto;
     height: auto;
-    min-height: 1000px;
+    min-height: 1000px; 
     margin: 100px;
     margin-left: 20px;
     margin-right: 20px;
@@ -24,7 +24,7 @@
     align-content: flex-start;
     width: 120px;
     height: 70%;
-    margin: 30px 0px 30px 10px;
+    margin: 30px 10px 30px 10px;
 }
 
 .left-content-title {
@@ -84,15 +84,16 @@
 }
 
 .sepLine {
-    position: absolute;
-    left: 132px;
+    position: sticky;
+    top: 0;
+    left: 140px;
     width: 2px;
     height: 98%;
     margin: 10px 10px;
     background-color: rgb(109, 105, 105);
 }
 
-@media (max-width: 320px){
+@media (max-width: 420px){
     .left-content,
     .sepLine,
     .cover {
@@ -105,9 +106,9 @@
     }
 }
 
- .cover{
-    width: 150px;
- }
+.cover{
+   width: 120px;
+}
 
 .content {
     margin-top: 30px;
