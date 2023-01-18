@@ -9,7 +9,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 .left-footer {
