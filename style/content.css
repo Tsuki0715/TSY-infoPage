@@ -99,7 +99,20 @@
     background-color: rgb(109, 105, 105);
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
+    .left-content,
+    .sepLine,
+    .cover {
+        display: none;
+    }
+
+    .content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-height: 560px) {
     .left-content,
     .sepLine,
     .cover {
